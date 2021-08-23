@@ -11,9 +11,15 @@ This is a Note Taking site, deployed on Heroku, that allows you to save and dele
 
 ## <ins>Usage</ins>
 Deployed Link:
-https://quiet-peak-71935.herokuapp.com/notes
+https://quiet-peak-71935.herokuapp.com/index
+![](https://user-images.githubusercontent.com/85041715/130423389-10d1219b-89d6-4154-8a64-ee3b9e391944.gif)
 
-Go to the deployed Heroku site, Add a note title as well as a note, and save icon will appear, click to save. The note will save to a list on the left of the page, you may press the delete button to remove the note.
+Go to the deployed Heroku site, and click "Get Started" to take you to your Notes page.
+![indexSS](https://user-images.githubusercontent.com/85041715/130423792-18294ccc-7f2b-4cc0-9f7d-0407c8c28acf.png)
+
+Filling out the fields for the Title and Text of the note, allows a  save icon to populate, click to save the note. This will give you access to view the view the note, or to delete it.
+![notesSS](https://user-images.githubusercontent.com/85041715/130424131-5b22b1e2-20f3-457f-9c37-d0478d399b53.png)
+
 
 ## <ins>License</ins>
 ![](https://img.shields.io/badge/License-MIT%20-blue?style=flat-square)
