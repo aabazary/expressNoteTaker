@@ -56,7 +56,7 @@ function createNote(body, event) {
 };
 
 //DELETE route, to remove notes
-app.delete('/api/notes/:id',(req,res) => {
+app.delete('/api/notes/:id', (req, res) => {
     deleteNote(req.params.id, db)
     res.json(true);
 });
@@ -71,8 +71,6 @@ function deleteNote(id, event) {
                 path.join(__dirname, './db/db.json'),
                 JSON.stringify(event)
             );
-
-            break;
         }
     }
 }
